@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:parallel_port_sound_converter-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -556,7 +555,7 @@ Connection ~ 3500 6200
 Wire Wire Line
 	3500 6200 4000 6200
 $Comp
-L MCU_Microchip_ATtiny:ATtiny24-20PU U2
+L parallel_port_sound_converter-rescue:ATtiny24-20PU-MCU_Microchip_ATtiny U2
 U 1 1 5D49B950
 P 4500 3200
 F 0 "U2" H 3971 3246 50  0000 R CNN
